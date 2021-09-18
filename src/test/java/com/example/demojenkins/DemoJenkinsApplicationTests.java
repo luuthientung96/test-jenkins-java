@@ -21,4 +21,9 @@ class DemoJenkinsApplicationTests {
     public void testInputIsOdd(){
         assertFalse(DemoJenkinsApplication.checkIfInputIsAnEvenNumber(23)); // Assertion
     }
+
+    @Test
+    public void testGreaterThan10(){
+        assertTrue(DemoJenkinsApplication.checkGreaterThan10(11));
+    }
 }

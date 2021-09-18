@@ -8,9 +8,14 @@ public class DemoJenkinsApplication {
 
     public static void main(String[] args) {
         System.out.println(checkIfInputIsAnEvenNumber(122)); // Testing in the main methodgit
+        System.out.println(checkGreaterThan10(11));
         SpringApplication.run(DemoJenkinsApplication.class, args);
     }
     public static boolean checkIfInputIsAnEvenNumber(int number){
         return number % 2 == 0;
     }
+    public static boolean checkGreaterThan10(int number){
+        return number >10;
+    }
+
 }
