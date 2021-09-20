@@ -10,10 +10,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 class DemoJenkinsApplicationTests {
 
     @Test
-    void contextLoads() {
-    }
-
-    @Test
     public void testInputIsEven(){
         assertTrue(DemoJenkinsApplication.checkIfInputIsAnEvenNumber(22)); // Assertion
     }
@@ -24,6 +20,6 @@ class DemoJenkinsApplicationTests {
 
     @Test
     public void testGreaterThan10(){
-        assertTrue(DemoJenkinsApplication.checkGreaterThan10(11));
+        assertTrue(DemoJenkinsApplication.checkGreaterThan10(14));
     }
 }
