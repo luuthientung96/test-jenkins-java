@@ -16,6 +16,7 @@ public class DemoJenkinsApplication {
     }
     public static boolean checkGreaterThan10(int number){
         System.out.println("This is check 1");
+        System.out.println("This is check 2");
         return number >10;
     }
 
